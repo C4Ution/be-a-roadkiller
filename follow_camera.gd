@@ -1,6 +1,6 @@
 extends Camera
 
-export var min_distance = 0.5
+export var min_distance = 4.0
 export var max_distance = 4.0
 export var angle_v_adjust = 0.0
 

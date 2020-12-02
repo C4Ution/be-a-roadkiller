@@ -7,3 +7,4 @@ resource_name = "Cement"
 albedo_texture = ExtResource( 1 )
 roughness = 0.8
 uv1_scale = Vector3( 2, 2, 2 )
+uv1_triplanar = true
