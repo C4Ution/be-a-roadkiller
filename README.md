@@ -24,7 +24,7 @@ $ git clone https://github.com/C4Ution/be-a-roadkiller.git
 
 **project.godot을 클릭 후 오른쪽 상단 위  Play 버튼을 눌러주세요!**
 
-![project.godot](screenshots/projectgodot.png)
+![project.godot](screenshots/projectgodot.png){: width="100" height="100"}
 
 
 ```
@@ -35,26 +35,26 @@ $ git clone https://github.com/C4Ution/be-a-roadkiller.git
 
 #### 1. Story line
 **클릭으로 스토리라인을 넘겨보자..**
-![Screenshot](screenshots/interface1.png)
+![Screenshot](screenshots/interface1.png){: width="100" height="100"}
 
-![Screenshot](screenshots/interface2.png)
+![Screenshot](screenshots/interface2.png){: width="100" height="100"}
 
 #### 2. In Game
 **무시무시한 자동차로 사람을 죽여보자.. 무시무시한 음악이 나올 것이다...**
-![Screenshot](screenshots/interface3.png)
+![Screenshot](screenshots/interface3.png){: width="100" height="100"}
 
-![Screenshot](screenshots/interface4.png)
+![Screenshot](screenshots/interface4.png){: width="100" height="100"}
 
 
 #### 3. End
 **모든 사람을 죽였지만 스트레스가 풀리지 않았을 수 있다.. 더죽여보자...**
-![Screenshot](screenshots/interface5.png)
+![Screenshot](screenshots/interface5.png){: width="100" height="100"}
 
 ## 마치며
 
 *게임이 재밌으셨나요..? 한줄평을 남겨주세요..*
 
 `채문`: 이 게임을 하고... 스트레스가 해소되었습니다... 새로운자아를 찾은 것 같네요...  
-`혜성`: 사망년의 반항이다..  
+`혜성`: 사망년의 마지막 반항..  
 `홍섭`: 뭉치면 다죽는다.  
 `세교`: 착하게 사는 것은 높은 계단을 오르는 것과 같지만 내려오는 것은 포기하고 내려갈 때는 너무나도 빠르고 즐겁다.
