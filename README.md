@@ -24,7 +24,7 @@ $ git clone https://github.com/C4Ution/be-a-roadkiller.git
 
 **project.godot을 클릭 후 오른쪽 상단 위  Play 버튼을 눌러주세요!**
 
-![project.godot](screenshots/projectgodot.png){: width="100" height="100"}
+![project.godot](screenshots/projectgodot.png)
 
 
 ```
