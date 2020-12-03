@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Truck Town"
+config/name="Be A Roadkiller"
 config/description="This is a demo implementing different types of trucks of
 varying complexity using vehicle physics.
 
