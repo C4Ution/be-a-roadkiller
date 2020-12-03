@@ -1,4 +1,4 @@
-[gd_scene load_steps=54 format=2]
+[gd_scene load_steps=55 format=2]
 
 [ext_resource path="res://Materials/roof.tres" type="Material" id=1]
 [ext_resource path="res://Materials/roof2.tres" type="Material" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://Materials/house.tres" type="Material" id=5]
 [ext_resource path="res://Materials/windows.tres" type="Material" id=6]
 [ext_resource path="res://Materials/door.tres" type="Material" id=7]
+[ext_resource path="res://town_mesh.gd" type="Script" id=8]
 
 [sub_resource type="ArrayMesh" id=1]
 resource_name = "Cube.063"
@@ -501,6 +502,7 @@ size = Vector3( 80, 1.1, 6 )
 
 [node name="TruckTown" type="Spatial"]
 _import_path = NodePath(".")
+script = ExtResource( 8 )
 __meta__ = {
 "__editor_plugin_screen__": "3D"
 }

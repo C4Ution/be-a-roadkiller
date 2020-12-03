@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://town_mesh.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Character/Person.tscn" type="PackedScene" id=2]
 
 [node name="TownScene" type="Spatial"]
 
@@ -21,3 +22,12 @@ __meta__ = {
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
 transform = Transform( 1, 0, 0, 0, -0.629475, 0.777021, 0, -0.777021, -0.629475, 0, 24.4076, 0 )
 shadow_enabled = true
+
+[node name="character" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.26385, 0, 4.35556 )
+
+[node name="person" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.35556 )
+
+[node name="person2" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.91496, 0, 4.35556 )

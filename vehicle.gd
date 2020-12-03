@@ -5,7 +5,7 @@ const STEER_LIMIT = 0.4
 
 var steer_target = 0
 
-export var engine_force_value = 400
+export var engine_force_value = 200
 
 func _physics_process(delta):
 	var fwd_mps = transform.basis.xform_inv(linear_velocity).x
@@ -25,6 +25,4 @@ func _physics_process(delta):
 	else:
 		brake = 0.0
 	steering = move_toward(steering, steer_target, STEER_SPEED * delta)
-	
-	var bodies = get_colliding_bodies()
-	print(bodies)
+

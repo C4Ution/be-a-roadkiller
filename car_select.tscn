@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://car_select.gd" type="Script" id=1]
 [ext_resource path="res://Images/choose_van.png" type="Texture" id=2]
 [ext_resource path="res://Images/choose_trailer.png" type="Texture" id=3]
 [ext_resource path="res://Images/choose_tow.png" type="Texture" id=4]
+[ext_resource path="res://bgm (online-audio-converter.com).wav" type="AudioStream" id=5]
 
 [node name="CarSelect" type="Control"]
 anchor_left = 0.5
@@ -22,11 +23,28 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="MiniVan" type="Button" parent="."]
-margin_left = 4.0
-margin_top = 160.0
-margin_right = 340.0
-margin_bottom = 400.0
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+autoplay = true
+
+[node name="Panel" type="Panel" parent="."]
+anchor_left = 0.00115895
+anchor_right = 0.00115895
+margin_left = -32.9654
+margin_top = -36.7682
+margin_right = 1130.03
+margin_bottom = 683.232
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MiniVan" type="Button" parent="Panel"]
+anchor_left = -0.00102049
+anchor_right = -0.00102049
+margin_left = 32.4845
+margin_top = 208.661
+margin_right = 368.484
+margin_bottom = 449.661
 size_flags_horizontal = 2
 size_flags_vertical = 2
 icon = ExtResource( 2 )
@@ -34,11 +52,11 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TrailerTruck" type="Button" parent="."]
-margin_left = 344.0
-margin_top = 160.0
-margin_right = 680.0
-margin_bottom = 401.0
+[node name="TrailerTruck" type="Button" parent="Panel"]
+margin_left = 372.484
+margin_top = 208.661
+margin_right = 708.484
+margin_bottom = 449.661
 size_flags_horizontal = 2
 size_flags_vertical = 2
 icon = ExtResource( 3 )
@@ -46,14 +64,14 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TowTruck" type="Button" parent="."]
-margin_left = 684.0
-margin_top = 160.0
-margin_right = 1020.0
-margin_bottom = 400.0
+[node name="TowTruck" type="Button" parent="Panel"]
+margin_left = 712.484
+margin_top = 208.661
+margin_right = 1048.48
+margin_bottom = 449.661
 size_flags_horizontal = 2
 size_flags_vertical = 2
 icon = ExtResource( 4 )
-[connection signal="pressed" from="MiniVan" to="." method="_on_MiniVan_pressed"]
-[connection signal="pressed" from="TrailerTruck" to="." method="_on_TrailerTruck_pressed"]
-[connection signal="pressed" from="TowTruck" to="." method="_on_TowTruck_pressed"]
+[connection signal="pressed" from="Panel/MiniVan" to="." method="_on_MiniVan_pressed"]
+[connection signal="pressed" from="Panel/TrailerTruck" to="." method="_on_TrailerTruck_pressed"]
+[connection signal="pressed" from="Panel/TowTruck" to="." method="_on_TowTruck_pressed"]
