@@ -6,9 +6,9 @@ extends Control
 # var b = "text"
 var current = 0
 var sentenses = [
-	'뭐가 문제일까...?',
-	'어디서 부터 잘못된거야...',
-	'에라이 시밸거 사람이나 죽이자 시밸러매거',
+	'그럴 때 있지 않아요...?',
+	'모두 다 죽여버리고 싶을 때...',
+	'나 이제 멈출 수 없어..',
 ]
 
 # Called when the node enters the scene tree for the first time.

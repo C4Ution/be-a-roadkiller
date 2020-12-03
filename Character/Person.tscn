@@ -2706,7 +2706,7 @@ nodes/runSword/node = SubResource( 26 )
 nodes/runSword/position = Vector2( -200, 320 )
 nodes/sprintBlend/node = SubResource( 27 )
 nodes/sprintBlend/position = Vector2( 640, 40 )
-node_connections = [ "output", 0, "sprintBlend", "sprintBlend", 0, "idleBlend", "sprintBlend", 1, "Sprint", "runAttack", 0, "run", "runAttack", 1, "runSword", "idleBlend", 0, "idleAttack", "idleBlend", 1, "runAttack", "idleAttack", 0, "idle", "idleAttack", 1, "idleSword" ]
+node_connections = [ "output", 0, "sprintBlend", "sprintBlend", 0, "idleBlend", "sprintBlend", 1, "Sprint", "idleAttack", 0, "idle", "idleAttack", 1, "idleSword", "idleBlend", 0, "idleAttack", "idleBlend", 1, "runAttack", "runAttack", 0, "run", "runAttack", 1, "runSword" ]
 
 [sub_resource type="AnimationNodeAnimation" id=29]
 animation = "Jump-loop"
