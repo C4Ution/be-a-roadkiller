@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/bgm (online-audio-converter.com).wav-31b7330ac3efd5608f7540001f5581d2.sample"
+
+[deps]
+
+source_file="res://bgm (online-audio-converter.com).wav"
+dest_files=[ "res://.import/bgm (online-audio-converter.com).wav-31b7330ac3efd5608f7540001f5581d2.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
