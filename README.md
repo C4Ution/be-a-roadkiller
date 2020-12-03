@@ -9,7 +9,7 @@
 ## 게임 다운로드 및 실행
 
 #### Godot 다운로드
-자신의 운영체제에 맞춰 디운로드 한다.
+자신의 운영체제에 맞춰 다운로드 한다.
 
 - window: [Window버전 다운로드](https://godotengine.org/download/windows)
 - linux: [Linux버전 다운로드](https://godotengine.org/download/linux)
@@ -56,5 +56,5 @@ $ git clone https://github.com/C4Ution/be-a-roadkiller.git
 
 `채문`: 이 게임을 하고... 스트레스가 해소되었습니다... 새로운자아를 찾은 것 같네요...  
 `혜성`: 사망년의 반항이다..  
-`홍섭`: 여기서 운전연습 함미다.  
+`홍섭`: 뭉치면 다죽는다.  
 `세교`: 착하게 사는 것은 높은 계단을 오르는 것과 같지만 내려오는 것은 포기하고 내려갈 때는 너무나도 빠르고 즐겁다.
