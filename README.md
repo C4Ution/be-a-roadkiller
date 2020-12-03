@@ -35,20 +35,20 @@ $ git clone https://github.com/C4Ution/be-a-roadkiller.git
 
 #### 1. Story line
 **클릭으로 스토리라인을 넘겨보자..**
-![Screenshot](screenshots/interface1.png){: width="100" height="100"}
+![Screenshot](screenshots/interface1.png)
 
-![Screenshot](screenshots/interface2.png){: width="100" height="100"}
+![Screenshot](screenshots/interface2.png)
 
 #### 2. In Game
 **무시무시한 자동차로 사람을 죽여보자.. 무시무시한 음악이 나올 것이다...**
-![Screenshot](screenshots/interface3.png){: width="100" height="100"}
+![Screenshot](screenshots/interface3.png)
 
-![Screenshot](screenshots/interface4.png){: width="100" height="100"}
+![Screenshot](screenshots/interface4.png)
 
 
 #### 3. End
 **모든 사람을 죽였지만 스트레스가 풀리지 않았을 수 있다.. 더죽여보자...**
-![Screenshot](screenshots/interface5.png){: width="100" height="100"}
+![Screenshot](screenshots/interface5.png)
 
 ## 마치며
 
